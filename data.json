@@ -34,6 +34,12 @@
             "ten": "thailand",
             "toaDo": "15.870032,100.992541",
             "hinhAnh": "thailand.jpg"
+        },
+        {
+            "id": "7",
+            "ten": "mexico",
+            "toaDo": "23.634501,-102.552784",
+            "hinhAnh": "mexico.jpg"
         }
     ]
 }

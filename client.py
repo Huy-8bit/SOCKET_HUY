@@ -1,6 +1,6 @@
 import socket
 import json
-#from PIL import Image
+from PIL import Image
 HOST = "127.0.0.1"
 PORT = 50001
 ADDR = (HOST, PORT) # dia chi server
@@ -30,7 +30,7 @@ while True:
     elif data.split(' ')[0] == "image":
         Client.sendto(data.encode(FORMAT), ADDR)
         temp =""
-        temp = data.split(' ')[1] + "1.jpg" # message check vietnam => temp = vietnam1.jpg
+        temp = data.split(' ')[1] + "1.jpg"
         file_image = open(temp, "wb")
         data_image = Client.recv(1024)
         if data_image == b"10101":
