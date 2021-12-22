@@ -74,7 +74,7 @@ while True:
         sendList(server, data_server, addr)
     
     elif data.split(' ')[0] == "image":
-        sendImage(server, data_server, addr, data.split(' ')[1])
+         sendImage(server, data_server, addr, data.split(' ')[1])
 
     elif data.split(' ')[0] == "check":
         print("run checkDiadiem") 
