@@ -54,6 +54,13 @@
             "MoTa": "Mexico la dat nuoc rat dep",
             "hinhAnh": "mexico.jpg"
 
+        },
+        {
+            "id": "8",
+            "ten": "thai",
+            "toaDo": "15.870032,100.992541",
+            "MoTa": "Thai la dat nuoc rat dep",
+            "hinhAnh": "thai.jpg"
         }
     ]
 }
